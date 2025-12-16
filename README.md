@@ -1,14 +1,21 @@
-# DC_Power_Brick
+# Power Brick
 
 ## Two Channel DC Power Controller.
-  - DRV8704 SPI based FET driver
+  - DRV8704 FET driver
   -  8..52V
+  -  SPI interface for  monitoring
   -  PWM 500kHz
   -  CSD18540Q5B FET 30 / 400A (peak)
 
 [Datasheet Driver](./datasheets/drv8704.pdf)
 [Datasheet FET](./datasheets/csd18540q5b.pdf)
+
+### Overview
 <img src="./datasheets/drv8704.png" alt="DRV8704" width="500" />
+
+### Control Logic
+<img src="./datasheets/drv8704-control_diagram.png" alt="DRV8704-diagram" width="500" />
+<img src="./datasheets/drv8704-control.png" alt="DRV8704-control" width="500" />
 
 
 ## 2x Two Channel Precision Thermistor ADC
@@ -18,7 +25,9 @@
 [Datasheet ADS1220](./datasheets/ads1220.pdf)
 <img src="./datasheets/ads1220.png" alt="ADS1220" width="500" />
 
-## PCB Design
+## Power Brick PCB Design
+
+The following files were created for this project using KiCad.
 
 ![Scematics](./KiCad/Power_Brick/Power_Brick_Schematics/Power_Brick.svg)
 
