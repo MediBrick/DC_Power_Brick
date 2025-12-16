@@ -1,4 +1,4 @@
-27802250739660639
+27809315288631943
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -97697,7 +97697,7 @@ DCP0038A_N
 DRV8704DCPR 
 0
 63
-40
+39
 Power_Brick
 DNK0008A
 
@@ -97706,12 +97706,40 @@ CSD18540Q5B
 9
 9
 Power_Brick
+MKDS5_2-9_5_1pos_PowerPad
+
+
+0
+65
+1
+Power_Brick
+MKDS5_2-9_5_2pos_PowerPad
+
+
+0
+370
+2
+Power_Brick
+MKDS5_2-9_5_4pos_PowerPad
+
+
+0
+260
+4
+Power_Brick
 MKDS5_2-9_5_6pos_PowerPad
 
 
 0
 1107
 6
+Power_Brick
+NetTie-2_SMD_Pad0.25mm
+Net tie, 2 pin, 0.5mm square SMD pads
+net tie
+0
+2
+2
 Power_Brick
 PHOENIX_1714971
 

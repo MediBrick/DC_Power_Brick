@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 9.700001,
+          "width": 3.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,11 +48,36 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|186752500|147863750|0fe3b5bc-3570-4ac5-a5c6-52c5fd21b0b4|fbc4a6b0-eede-47df-80ad-04de84bca162",
+          ""
+        ],
+        [
+          "clearance|186752500|150270150|7b426103-9d36-4b34-9cf5-cbce0b6f1115|27faa7d2-2f1a-443c-80a5-f517e150c6b7",
+          ""
+        ],
+        [
+          "clearance|204002500|150092350|43539404-c980-4c9d-9ffc-58685b94ffe7|1fd7b5ca-dcf6-4029-bfa8-ce2513b4fcae",
+          ""
+        ],
+        [
+          "clearance|221685369|147722602|f0072a46-2031-4546-96ca-9318883b5014|0d272534-360d-4281-abfa-1f24cafbdd67",
+          ""
+        ],
+        [
+          "clearance|221685369|150222602|a3bbd919-a9ee-44de-afe8-a94e552cf9b5|1230ec90-dec2-4a88-aac9-d279217736e1",
+          ""
+        ],
+        [
+          "clearance|239167546|150094802|3de2b32d-4468-4d87-bc42-ab8c1d258ec8|e01f7c24-0b2d-4742-af9b-c4f0d2f00aea",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -100,7 +125,7 @@
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -487,7 +512,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "./Power_Brick_PCB",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -700,7 +725,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "./Power_Brick_Schematics",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
