@@ -23,7 +23,10 @@
   - Configured for two channel 10K NTC thermistor measurements using internal current source and external reference 22k resistor.
 
 [Datasheet ADS1220](./datasheets/ads1220.pdf)
+
 <img src="./datasheets/ads1220.png" alt="ADS1220" width="500" />
+
+This design requires that both temperature sensors are attached. If one is not populated, the measurement circuit is interrupted and no temperature is reported.
 
 ## Power Brick PCB Design
 
