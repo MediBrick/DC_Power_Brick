@@ -1,7 +1,7 @@
 # Power Brick
 
 The Power Brick can control power to resistive heater, thermo electric cooler/heater or DC motor.
-It requires 8V or larger input and might be able to handle 30A (2-4 oz copper).
+It requires 8V or larger input and might be able to handle 30A (4 oz copper).
 
 ## Two Channel DC Power Controller.
   - DRV8704 FET driver
