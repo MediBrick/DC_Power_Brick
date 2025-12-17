@@ -32,10 +32,9 @@ This design requires that both temperature sensors are attached. If one is not p
 
 The following files were created for this project using KiCad.
 
-![Scematics](./KiCad/Power_Brick/Power_Brick_Schematics/Power_Brick.svg)
+<img src="./KiCad/Power_Brick/Power_Brick/Power_Brick_Schematics/Power_Brick.svg" alt="Schematics" width="500" />
 
-<img src="./KiCad/Power_Brick/Power_Brick_PCB/output.svg" alt="PCB" width="500" />
-
+<img src="./KiCad/Power_Brick/Power_Brick/Power_Brick_PCB/PCB.png" alt="Schematics" width="500" />
 <img src="./KiCad/Power_Brick_front.png" alt="3D" width="500" />
 <img src="./KiCad/Power_Brick_back.png" alt="3D" width="500" />
 
