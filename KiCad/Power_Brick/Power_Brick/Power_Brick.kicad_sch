@@ -4097,7 +4097,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_SparkFun-Switch:SPST_Push_SMD_5.2x5.2mm_h1.9mm"
+		(symbol "PCM_SparkFun-Switch:SPST_Push_SMD_4.6x2.8mm_h1.9mm"
 			(pin_numbers
 				(hide yes)
 			)
@@ -4116,7 +4116,7 @@
 					)
 				)
 			)
-			(property "Value" "SMD_5.2x5.2mm_h1.9mm"
+			(property "Value" "SMD_4.6x2.8mm_h1.9mm"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -4124,7 +4124,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PCM_SparkFun-Switch:Push_SMD_5.2x5.2mm_h1.9mm"
+			(property "Footprint" "PCM_SparkFun-Switch:Push_SMD_4.6x2.8mm_h1.9mm"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -4133,7 +4133,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/165/TL3342.pdf"
+			(property "Datasheet" "https://www.ckswitches.com/media/1479/kmr2.pdf"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -4151,8 +4151,17 @@
 					(hide yes)
 				)
 			)
-			(property "PROD_ID" "SWCH-08247"
+			(property "PROD_ID" "SWCH-13065"
 				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfg Part#" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4169,7 +4178,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SPST_Push_SMD_5.2x5.2mm_h1.9mm_0_1"
+			(symbol "SPST_Push_SMD_4.6x2.8mm_h1.9mm_0_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -4216,8 +4225,6 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "SPST_Push_SMD_5.2x5.2mm_h1.9mm_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -25043,7 +25050,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SparkFun-Switch:SPST_Push_SMD_5.2x5.2mm_h1.9mm")
+		(lib_id "PCM_SparkFun-Switch:SPST_Push_SMD_4.6x2.8mm_h1.9mm")
 		(at 104.14 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25067,7 +25074,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Switch:Push_SMD_5.2x5.2mm_h1.9mm"
+		(property "Footprint" "PCM_SparkFun-Switch:Push_SMD_4.6x2.8mm_h1.9mm"
 			(at 104.14 176.53 0)
 			(effects
 				(font
@@ -25076,7 +25083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/165/TL3342.pdf"
+		(property "Datasheet" "https://www.ckswitches.com/media/1479/kmr2.pdf"
 			(at 104.14 181.61 0)
 			(effects
 				(font
@@ -25094,8 +25101,17 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "SWCH-08247"
+		(property "PROD_ID" "SWCH-13065"
 			(at 104.14 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part#" ""
+			(at 104.14 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
