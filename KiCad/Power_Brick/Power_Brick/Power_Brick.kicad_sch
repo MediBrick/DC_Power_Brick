@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "Power Brick")
-		(date "2025-12-15")
-		(rev "1.0")
+		(date "2026-01-27")
+		(rev "1.1")
 		(comment 1 "Urs Utzinger")
 	)
 	(lib_symbols
@@ -2603,165 +2603,6 @@
 					(at 0 -2.54 90)
 					(length 2.032)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_SparkFun-DiscreteSemi:D_Zener"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Zener"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "~"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Zener diode"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PROD_ID" "DIO-"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SparkFun diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Zener_0_1"
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.762 1.016) (xy -0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.016) (xy -0.762 0) (xy 0.762 -1.016) (xy 0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy -0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Zener_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7093,12 +6934,6 @@
 		(uuid "090f92fb-1f93-46a8-b599-37dcac5da049")
 	)
 	(junction
-		(at 39.37 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a3b3cfa-8f87-4a10-af03-5d24cdaab098")
-	)
-	(junction
 		(at 46.99 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7307,12 +7142,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70871891-9dd2-4911-b6b7-586455a26e7c")
-	)
-	(junction
-		(at 44.45 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "74af6a62-404d-4db5-8433-215f722b2a29")
 	)
 	(junction
 		(at 143.51 74.93)
@@ -7597,12 +7426,6 @@
 		(uuid "f1835fca-fd63-4034-bcec-aa1340ccf4bf")
 	)
 	(junction
-		(at 39.37 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f349949e-b372-44fa-8511-f7b131d12ff2")
-	)
-	(junction
 		(at 232.41 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7619,6 +7442,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f832aece-e494-4260-9a7e-9f77384f75cf")
+	)
+	(junction
+		(at 39.37 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fec9fbcf-a1e4-4e7d-8ae5-1bee39f93caf")
 	)
 	(wire
 		(pts
@@ -7889,16 +7718,6 @@
 			(type default)
 		)
 		(uuid "0f99f6f4-3b47-4922-be25-d25616e34ac7")
-	)
-	(wire
-		(pts
-			(xy 39.37 176.53) (xy 44.45 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fccd6fa-7d35-46b2-b0ab-223d50d6951d")
 	)
 	(wire
 		(pts
@@ -8542,7 +8361,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 168.91) (xy 39.37 170.18)
+			(xy 39.37 160.02) (xy 39.37 168.91)
 		)
 		(stroke
 			(width 0)
@@ -8812,7 +8631,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 175.26) (xy 39.37 176.53)
+			(xy 39.37 175.26) (xy 39.37 177.8)
 		)
 		(stroke
 			(width 0)
@@ -9342,6 +9161,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 160.02) (xy 53.34 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62f69536-d042-4d5b-8f8c-c9cbd6b901e5")
+	)
+	(wire
+		(pts
 			(xy 246.38 71.12) (xy 246.38 78.74)
 		)
 		(stroke
@@ -9409,16 +9238,6 @@
 			(type default)
 		)
 		(uuid "665b44f4-fb77-4e32-a79e-a7fbad49ad6a")
-	)
-	(wire
-		(pts
-			(xy 39.37 168.91) (xy 44.45 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "668f81e1-cbdc-4b53-94f3-e930e8ba92a5")
 	)
 	(wire
 		(pts
@@ -9512,16 +9331,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 175.26) (xy 44.45 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b492f56-9736-42f6-9cb1-664c2d2f86a6")
-	)
-	(wire
-		(pts
 			(xy 30.48 74.93) (xy 46.99 74.93)
 		)
 		(stroke
@@ -9559,16 +9368,6 @@
 			(type default)
 		)
 		(uuid "6f3b8e1e-c58a-43c0-8cb7-4c7cef3e1ccb")
-	)
-	(wire
-		(pts
-			(xy 44.45 168.91) (xy 44.45 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "704ac381-834a-432a-818e-fc7025b79b2e")
 	)
 	(wire
 		(pts
@@ -9679,16 +9478,6 @@
 			(type default)
 		)
 		(uuid "75591095-9541-4168-a8e8-3bb725524d8f")
-	)
-	(wire
-		(pts
-			(xy 44.45 168.91) (xy 46.99 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "760c387f-1380-4309-98c0-e2318f249ee1")
 	)
 	(wire
 		(pts
@@ -9822,16 +9611,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 160.02) (xy 53.34 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b6bcd2f-56e0-4983-9635-04497f6f948e")
-	)
-	(wire
-		(pts
 			(xy 243.84 124.46) (xy 243.84 123.19)
 		)
 		(stroke
@@ -9849,16 +9628,6 @@
 			(type default)
 		)
 		(uuid "7c7871a9-599e-4a86-b581-1d9726f3070d")
-	)
-	(wire
-		(pts
-			(xy 44.45 168.91) (xy 44.45 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cda0c84-18cb-4fba-9854-616d3493dd0a")
 	)
 	(wire
 		(pts
@@ -10072,16 +9841,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 176.53) (xy 39.37 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8958750c-99c9-40b3-a082-633a5a51be40")
-	)
-	(wire
-		(pts
 			(xy 102.87 97.79) (xy 104.14 97.79)
 		)
 		(stroke
@@ -10149,6 +9908,16 @@
 			(type default)
 		)
 		(uuid "8ded552d-9d6f-45f7-818b-6ba60ebbc259")
+	)
+	(wire
+		(pts
+			(xy 39.37 160.02) (xy 41.91 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e048f3f-3daf-4c99-93e7-f759974e8537")
 	)
 	(wire
 		(pts
@@ -10532,6 +10301,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 168.91) (xy 53.34 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abf95dfa-c557-4724-a883-70ccf2af02da")
+	)
+	(wire
+		(pts
 			(xy 72.39 212.09) (xy 71.12 212.09)
 		)
 		(stroke
@@ -10559,16 +10338,6 @@
 			(type default)
 		)
 		(uuid "acc71c97-c369-4adb-8f3b-9cacb3a0ca30")
-	)
-	(wire
-		(pts
-			(xy 39.37 161.29) (xy 39.37 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad5f6be0-0b93-44f2-a224-12816ff31c2b")
 	)
 	(wire
 		(pts
@@ -10872,16 +10641,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 167.64) (xy 39.37 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3411f75-e8bb-4854-b29f-6aa8c9e3358e")
-	)
-	(wire
-		(pts
 			(xy 288.29 92.71) (xy 288.29 106.68)
 		)
 		(stroke
@@ -11089,6 +10848,16 @@
 			(type default)
 		)
 		(uuid "d142a685-df74-4a28-9bfd-6338efd61755")
+	)
+	(wire
+		(pts
+			(xy 39.37 168.91) (xy 39.37 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1674d84-6166-45dc-bb85-5d9698387763")
 	)
 	(wire
 		(pts
@@ -11679,16 +11448,6 @@
 			(type default)
 		)
 		(uuid "f6dbbe8e-e704-486b-9f13-38e38f8ba281")
-	)
-	(wire
-		(pts
-			(xy 52.07 168.91) (xy 53.34 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7b84c80-a6f5-4f71-b092-db414f883e8f")
 	)
 	(wire
 		(pts
@@ -13718,7 +13477,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-Resistor:22_0402")
-		(at 49.53 168.91 0)
+		(at 44.45 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13727,15 +13486,15 @@
 		(fields_autoplaced yes)
 		(uuid "116f8f42-821b-4b55-aca7-8aa64922f388")
 		(property "Reference" "R7"
-			(at 49.53 162.56 0)
+			(at 44.45 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "22"
-			(at 49.53 165.1 0)
+		(property "Value" "330"
+			(at 44.45 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13743,7 +13502,7 @@
 			)
 		)
 		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
-			(at 49.53 173.482 0)
+			(at 44.45 164.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13752,7 +13511,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 49.53 177.8 0)
+			(at 44.45 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13761,7 +13520,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 49.53 180.34 0)
+			(at 44.45 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13770,7 +13529,7 @@
 			)
 		)
 		(property "PROD_ID" "RES-12427"
-			(at 49.53 175.768 0)
+			(at 44.45 166.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16785,72 +16544,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 39.37 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44f49274-5b6e-4ef3-a93c-32454427c7e1")
-		(property "Reference" "#PWR021"
-			(at 39.37 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 39.37 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 39.37 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e945c82a-2abe-4190-9f54-99cecb5eefb5")
-		)
-		(instances
-			(project "Power_Brick"
-				(path "/2f6ff11b-1bca-44b2-a7f8-c4fcb782d923"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 208.28 130.81 180)
 		(unit 1)
@@ -17693,7 +17386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "50V"
+		(property "Voltage" "100V"
 			(at 53.3336 29.21 90)
 			(effects
 				(font
@@ -17719,85 +17412,6 @@
 			(project ""
 				(path "/2f6ff11b-1bca-44b2-a7f8-c4fcb782d923"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-DiscreteSemi:D_Zener")
-		(at 44.45 172.72 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "55642e7b-15ad-42a7-baa5-af9e3258174e")
-		(property "Reference" "D3"
-			(at 46.99 171.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Zener"
-			(at 46.99 173.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
-			(at 36.83 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 39.37 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 31.75 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD_ID" "DIO-"
-			(at 34.29 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0112e1c2-2d9d-44b3-8404-51e9fc62d6af")
-		)
-		(pin "1"
-			(uuid "77f34272-95fd-4efc-ad03-545cef9ca86d")
-		)
-		(instances
-			(project ""
-				(path "/2f6ff11b-1bca-44b2-a7f8-c4fcb782d923"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -21925,85 +21539,6 @@
 			(project "Power_Brick"
 				(path "/2f6ff11b-1bca-44b2-a7f8-c4fcb782d923"
 					(reference "NT3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-Resistor:100k_0402")
-		(at 39.37 165.1 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a7092c0a-73bc-4140-a148-d5fef94288ae")
-		(property "Reference" "R5"
-			(at 36.83 163.8299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 36.83 166.3699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0402_1005Metric"
-			(at 35.052 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 30.48 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 27.94 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD_ID" "RES-25013"
-			(at 33.02 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8e5a1a8e-770e-4dcb-a58a-3d7cb514ec12")
-		)
-		(pin "1"
-			(uuid "a4de9fe4-84b1-4e76-b361-cf5a09564ca7")
-		)
-		(instances
-			(project ""
-				(path "/2f6ff11b-1bca-44b2-a7f8-c4fcb782d923"
-					(reference "R5")
 					(unit 1)
 				)
 			)
