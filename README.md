@@ -41,4 +41,5 @@ The following files were created for this project using KiCad.
 <img src="./KiCad/Power_Brick_front.png" alt="3D" width="500" />
 <img src="./KiCad/Power_Brick_back.png" alt="3D" width="500" />
 
-
+[Bill of Materials](./DC%20Power%20Brick%20BOM.xlsx)
+[Gerber Files](./)
